@@ -1,0 +1,1169 @@
+@media(max-width: 1264px){
+    .container{
+        max-width: 1024px;
+    }
+}
+@media(max-width: 1172px){
+    .container{
+        max-width: 941px;
+    }
+    .hungry{
+        font-size: 57px;
+    }
+    .wait{
+        font-size: 77px;
+    }
+    .mobile{
+        width: 16%;
+    }
+    .phoneNo{
+        font-size: 28px;
+    }
+    .heading{
+        font-size: 35px;
+    }
+}
+@media(max-width: 1078px){
+    .container{
+        max-width: 830px;
+    }
+    .hungry{
+        font-size: 54px;
+    }
+    .wait{
+        font-size: 68px;
+    }
+    .order{
+        font-size: 21px;
+    }
+    .mobile{
+        width: 14%
+    }
+    .phoneNo{
+        font-size: 25px;
+    }
+    .delivery{
+        font-size: 14px;
+    }
+    .number{
+        padding: 25px 5px 0 0;
+    }
+    .heading{
+        font-size: 29px;
+    }
+    .choose {
+        width: 59%;
+    }
+}
+@media(max-width: 1023px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 78px;
+    }
+
+    .hungry {
+        font-size: 45px;
+    }
+
+    .wait {
+        font-size: 52px;
+    }
+
+    .order {
+        font-size: 15px;
+    }
+
+    .sum {
+        font-size: 40px;
+    }
+
+    .day {
+        margin-bottom: 0;
+    }
+
+    .offerContent {
+        padding-top: 5px;
+    }
+
+    .plateGalleryBackground {
+        margin-top: 111px;
+    }
+
+    .platemenu {
+        top: -61px;
+    }
+
+    .platecard p {
+        text-align: center;
+    }
+
+    .choose {
+        width: 53%;
+    }
+}
+@media(max-width:767px) {
+.container {
+    max-width: 711px;
+}
+}
+@media(max-width:767px) {
+    .container {
+        max-width: 480px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .secMenu {
+        display: none;
+    }
+
+    .mobilemenu {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        right: 10%;
+        top: 3%;
+        z-index: 111;
+        display: block;
+    }
+
+    .header-right .menu {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 0;
+    }
+
+    .menu .menubtn {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background: url(../images/menu.png) no-repeat 0 0;
+    }
+
+    .menu .menubtn:hover {
+        background: url(../images/menu1.png) no-repeat 0 0;
+    }
+
+    .menuholder {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 123;
+        width: 250px;
+        height: 100%;
+        transition: 0.5s;
+    }
+
+    .menuholder:after {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        content: "";
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .menuholder>div {
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        background: yellow;
+    }
+
+    .menuholder {
+        right: -250px;
+    }
+
+    .menuholder.menuholderadd {
+        right: 0;
+    }
+
+    .menuholder.menuholderadd:after {
+        opacity: 1;
+        pointer-events: initial;
+    }
+
+    .menuholder.menuholderadd .cross {
+        display: inline-block;
+    }
+
+    .menuholder .cross {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background: url(../images/cross.png) no-repeat 0 0;
+        position: absolute;
+        left: -41px;
+        top: 18px;
+        display: none;
+    }
+
+
+    .menuholder h3 {
+        margin: 0;
+        padding: 12px 10px;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background: green;
+        color: yellow;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .menuholder ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menuholder ul li {
+        border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+        position: relative;
+    }
+
+    .menuholder ul li a {
+        display: block;
+        padding: 8px 12px;
+        color: green;
+        text-transform: capitalize;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .menuholder ul li a:hover {
+        background: white;
+    }
+
+    .menuholder ul li .newadd {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        color: #fff;
+        transform: translate(0, -50%);
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: bold;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .phoneNo {
+        font-size: 20px;
+    }
+
+    .delivery {
+        font-size: 10px;
+    }
+
+    .mobile {
+        width: 15%;
+    }
+
+    .navigation {
+        font-size: 14px;
+    }
+
+    .navigationElement {
+        margin: 0 6px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .hungry {
+        
+        margin: 0;
+    }
+
+    .wait {
+        font-size: 38px;
+        margin: 0;
+    }
+
+    .button {
+        padding: 5px 19px;
+    }
+
+    .order {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .sum {
+        font-size: 40px;
+    }
+
+    .day {
+        margin-bottom: 0;
+    }
+
+    .offerContent {
+        padding-top: 5px;
+    }
+
+    .plateGalleryBackground {
+        margin-top: 56px;
+    }
+
+    .platemenu {
+        top: -35px;
+    }
+
+    .plate {
+        width: 73%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .platecard h3 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .platecard p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .choose {
+        width: 96%;
+    }
+
+    .choose a {
+        font-size: 15px;
+    }
+
+    .heading {
+        font-size: 29px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    input {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+
+    .date {
+        width: 44%;
+    }
+
+    .time {
+        width: 44%;
+    }
+
+    .text {
+        width: 44%;
+    }
+
+    .submit {
+        width: 44%;
+    }
+
+    .fullsection {
+        font-size: 10px;
+    }
+
+    .itemgallery {
+        flex-wrap: wrap;
+    }
+
+    .altimage {
+        display: block;
+        bottom: 0;
+    }
+
+    .item1 {
+        width: 100%;
+    }
+
+    .platecard {
+        width: 100%;
+        display: block;
+    }
+
+    .plateGalleryBackground {
+        display: none;
+    }
+
+    .secondplategallery {
+        display: block;
+    }
+
+    .platemenu {
+        position: relative;
+        top: 10px;
+    }
+
+    .choose {
+        width: 30%;
+    }
+
+    .item4 {
+        margin-left: 0;
+    }
+
+    .item3 {
+        margin-top: 2px
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .logo {
+        width: 40%;
+        margin: 10px;
+    }
+
+    .backgroundimages .slick-prev {
+        display: none !important;
+    }
+
+    .backgroundimages .slick-next {
+        display: none !important;
+    }
+    .secondplategallery .platecards {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:764px) {
+    .number {
+        padding: 0 5px 0 0;
+    }
+
+    .phoneNo {
+        font-size: 19px;
+    }
+
+    .contact {
+        padding-top: 12px;
+    }
+}
+
+@media(max-width: 696px) {
+    .hungry{
+        font-size: 51px;
+    }
+    .bannerWriteContent {
+        margin-top: -9px;
+    }
+
+    .wait {
+        display: none;
+    }
+
+    .order {
+        display: none;
+    }
+
+    .offer {
+        display: none;
+    }
+}
+
+@media (max-width:642px) {
+    .container {
+        max-width: 473px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 582px) {
+    .bannerWriteContent {
+        margin-top: -6px
+    }
+}
+
+@media (max-width:556px) {
+    .bannerWriteContent {
+        width: 53%;
+    }
+    .plate {
+        width: 69%;
+    }
+}
+
+@media (max-width:554px) {
+    .container {
+        max-width: 473px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 15px;
+    }
+
+
+    .contact {
+        padding-top: 12px;
+    }
+
+    .number {
+        padding: 0px 5px 0 0;
+    }
+
+    .phoneNo {
+        font-size: 19px;
+    }
+
+    .backgroundimages .slick-prev {
+        display: none !important;
+    }
+
+    .backgroundimages .slick-next {
+        display: none !important;
+    }
+
+    .offer {
+        display: none;
+    }
+
+    .logo {
+        width: 33%;
+    }
+}
+
+@media (max-width:548px) {
+    .bannerWriteContent {
+        width: 68%;
+    }
+}
+
+@media (max-width:528px) {
+    .form {
+        text-align: center;
+    }
+
+    input {
+        width: 68%;
+    }
+
+    .date {
+        width: 68%;
+    }
+
+    .time {
+        width: 68%;
+    }
+}
+@media(max-width:493px){
+    .plate {
+        width: 62%;
+    }
+}
+
+
+@media(max-width:479px) {
+
+    .rightside {
+        margin-left: 164px;
+    }
+
+    .contact {
+        padding-left: 50%;
+    }
+
+    .phoneNo {
+        font-size: 12px;
+    }
+
+    .delivery {
+        font-size: 7px;
+        ;
+    }
+
+    .mobile {
+        width: 12%;
+        margin-top: 28px;
+    }
+
+    .navigation {
+        font-size: 10px;
+    }
+
+    .mainmenu {
+        justify-content: normal;
+    }
+
+    .navigationElement {
+        margin: 0 2px;
+        padding: 4px 5px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 28px;
+        padding-left: 10px;
+    }
+
+    .bcontent {
+        justify-content: space-around;
+    }
+
+    .bannerImage {
+        width: 44%;
+    }
+
+    .hungry {
+        font-size: 44px;
+        margin: 0;
+    }
+
+    .wait {
+        font-size: 27px;
+        ;
+        margin: 0;
+    }
+
+    .button {
+        padding: 4px 8px;
+        margin-top: 2px;
+    }
+
+    .button a {
+        font-size: 10px;
+    }
+
+    .order {
+        font-size: 10px;
+        ;
+        margin: 0;
+    }
+
+    .sum {
+        font-size: 28px;
+    }
+
+    .day {
+        margin-bottom: 0;
+    }
+
+    .offerContent {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    .banner .slick-prev {
+        width: 15px;
+        height: 15px;
+        padding-left: 10px;
+    }
+
+    .banner .slick-next {
+        width: 15px;
+        height: 15px;
+        padding-left: 10px;
+    }
+
+    .plateGalleryBackground {
+        margin-top: 56px;
+    }
+
+    .platemenu {
+        top: -55px;
+    }
+
+    .itemgallery {
+        margin-top: 50px;
+    }
+
+    .platecard h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .platecard p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .choose {
+        width: 33%;
+    }
+
+    .choose a {
+        font-size: 13px;
+    }
+
+    .heading {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    input {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+
+    .text {
+        width: 44%;
+    }
+
+    .submit {
+        width: 44%;
+    }
+
+    .fullsection {
+        font-size: 10px;
+    }
+
+    .book {
+        margin-top: 57px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .secondplategallery .platecards {
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .address {
+        width: 100%;
+    }
+
+    .upcomingEvents {
+        padding: 0;
+    }
+    .menu .menubtn{
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+    }
+    .banner .slick-dots li button{
+        height: 15px;
+         width: 15px;
+    }
+
+}
+
+@media(max-width:432px) {
+    .time {
+        display: block;
+        width: 93%;
+    }
+
+    .people {
+        display: block;
+        width: 93%;
+    }
+
+    .name {
+        width: 93%;
+        display: block;
+    }
+
+    .email {
+        width: 93%;
+        display: block;
+        margin-left: 9px;
+    }
+
+    .date {
+        width: 93%;
+        display: block;
+    }
+
+    .submit {
+        width: 93%;
+        display: block;
+    }
+}
+
+@media(max-width:421px) {
+    .hungry {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:415px) {
+    .write2 {
+        top: 12px;
+    }
+}
+
+@media(max-width:414px) {
+    .choose a{
+        font-size: 11px;
+    }
+    .choose {
+        width: 30%;
+    }
+    .platecard h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .mainmenu {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .mobile {
+        width: 12%;
+        margin-top: 1px;
+    }
+
+    .time {
+        display: block;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:406px) {
+    .logo {
+        padding-left: 0;
+    }
+}
+
+@media(max-width: 393px) {
+
+    .bannerWriteContent {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 388px) {
+    .bannerWriteContent {
+        width: 60%;
+    }
+
+}
+
+
+@media(max-width:387px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:375px) {
+    .hungry{
+        font-size: 33px;
+    }
+    .bannerWriteContent {
+        padding-left: 13px;
+    }
+    .platecard p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:359px) {
+    .fun {
+        font-size: 19px;
+    }
+
+    .write3 {
+        top: 13px
+    }
+
+    .chilli {
+        font-size: 18px;
+    }
+
+    .menu .menubtn {
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+    }
+
+    .logo {
+        width: 36%;
+    }
+}
+
+@media(max-width:362px) {
+    .bannerWriteContent {
+        width: 78%;
+    }
+
+    .wait {
+        font-size: 22px;
+    }
+
+    .sum {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:360px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .bannerWriteContent {
+        padding-left: 22px;
+    }
+
+    .order {
+        font-size: 9px;
+    }
+}
+
+@media(max-width:368px) {
+    .section {
+        width: 46%;
+    }
+}
+
+@media(max-width:356px) {
+    .bannerWriteContent {
+        width: 71%;
+    }
+    .choose{
+        width: 33%;
+    }
+}
+
+@media(max-width:368px) {
+    .section {
+        width: 100%;
+    }
+
+    .address {
+        width: 100%
+    }
+}
+
+@media(max-width:348px) {
+    .bannerWriteContent {
+        width: 73%;
+    }
+}
+
+@media(max-width:332px) {
+    .bannerWriteContent {
+        width: 100%;
+    }
+    .choose{
+        width: 37%;
+    }
+}
+
+@media(max-width:319px) {
+    .logo {
+        padding-left: 10px;
+    }
+
+    .rightside {
+        margin-left: 164px;
+    }
+
+    .contact {
+        padding-left: 50%;
+    }
+
+    .phoneNo {
+        font-size: 12px;
+    }
+
+    .delivery {
+        font-size: 7px;
+        ;
+    }
+
+    .mobile {
+        width: 12%;
+        margin-top: 28px;
+    }
+
+    .navigation {
+        font-size: 10px;
+    }
+
+    .mainmenu {
+        justify-content: normal;
+    }
+
+    .navigationElement {
+        margin: 0 2px;
+        padding: 4px 5px;
+    }
+
+    .bannerWriteContent {
+        margin-top: 0;
+        padding-left: 10px;
+    }
+
+    .bcontent {
+        justify-content: space-around;
+    }
+
+    .bannerImage {
+        width: 44%;
+    }
+
+    .hungry {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .wait {
+        font-size: 22px;
+        ;
+        margin: 0;
+    }
+
+    .button {
+        padding: 0 2px;
+        margin-top: 2px;
+    }
+
+    .button a {
+        font-size: 8px;
+    }
+
+    .order {
+        font-size: 8px;
+        ;
+        margin: 0;
+    }
+
+    .sum {
+        font-size: 28px;
+    }
+
+    .day {
+        margin-bottom: 0;
+    }
+
+    .offerContent {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+
+    .banner .slick-prev {
+        width: 15px;
+        height: 15px;
+        padding-left: 10px;
+    }
+
+    .banner .slick-next {
+        width: 15px;
+        height: 15px;
+        padding-left: 10px;
+    }
+
+    .plateGalleryBackground {
+        margin-top: 56px;
+    }
+
+    .platemenu {
+        top: -55px;
+    }
+
+    .itemgallery {
+        margin-top: 50px;
+    }
+
+    .plate {
+        width: 87%;
+    }
+
+    .choose a {
+        font-size: 11px;
+    }
+
+    input {
+        padding: 8px 13px;
+        font-size: 13px;
+    }
+
+    .text {
+        width: 44%;
+    }
+
+    .submit {
+        width: 93%;
+    }
+
+    .fullsection {
+        font-size: 10px;
+    }
+
+    .book {
+        margin-top: 57px;
+    }
+
+    .footer {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+}
+
+@media(max-width:335px) {
+    .heading {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:316px) {
+    .bannerWriteContent {
+        margin-top: 0;
+    }
+}
+
+@media(max-width:280px) {
+    .mobile {
+        margin-top: 0;
+    }
+   
+    .wait {
+        font-size: 18px;
+    }
+
+    .bannerWriteContent {
+        margin-top: -7px;
+    }
+}
